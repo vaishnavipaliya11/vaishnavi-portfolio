@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto+Slab:wght@300&display=swap');
+
+:root{
+  --primary-color: #31383F;
+  --dark-blue:#1E3A8A;
+  --light-color:#E5E7EB;
+}
+
+hr{
+  margin:2rem,0rem;
+}
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  margin:0px;
+}
