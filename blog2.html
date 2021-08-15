@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name ="viewport" content="width-device-width, initial  scale=1.0">
+    <title>blogs | vaishnavi</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+     <nav class="navigation container">
+        <div class="nav-brand"> Vaishnavi Paliya </div>
+         <div class="spacing">
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href ="index.html"> home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href ="projects.html"> project</a>
+            </li>
+            <li class="list-item-inline" >
+                 <a class="link link-active" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
+         </div>
+    </nav>
+
+<section class="section ">
+       <div class="section-blog">
+        <div class= "container container-center">
+        <div>
+        <h1> DOCUMENT OBJECT MODEL (DOM) </h1>
+        <h3> selecting elements inside the dom using js. </h3>
+        <p>we can select elements by various method </p>
+        <div>
+        <p> <b>1.By Tag Name </b> </p>
+        <p> This property gives for all elements with the
+        particular tag name given .</p>
+        <p> document.getElementsByTagName("li")</p>
+        it will give all element with tag <b>li.</b>
+        </div>
+
+        <div>
+        <p> <b>2.By Class Name </b> </p>
+        <p> This property gives all elements with the
+        particular class name.</p>
+        <p>
+          We can select the class of html file in the js by using
+          document.querySelector.<br>
+          for example, <br>
+          we have a class with name <b>para</b>. We can select this Class
+          para in our js file by using ".".<br>
+
+          var paragraph = document.querySelector(".para") <br>
+          here, the class is stored in the variable called paragraph.
+
+        </p>
+
+        </div>
+
+        <div>
+        <p> <b>2.By using Id </b> </p>
+        <p> This property gives for all elements with the
+        particular id name given. Id is unique on every
+        page. <br>
+        We can select the element with particular id of html file in the js by using
+        document.querySelector.<br>
+        for example, <br>
+         We have id with name <b>input-one</b> and we can select this
+         by using "#".<br>
+
+        var inputOne= document.querySelector("#input-one") <br>
+        here, the element with id input-one is stored in the
+        variable called inputOne.
+
+        </p>
+
+        </div>
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+     <footer class="footer container">
+        <div class="footer-heading"> Social Media</div>
+        <div class="spacing">
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/vaishnavipaliya"> instagram </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/vaishnavipaliya11"> github </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/vaishnavi-paliya-b7767620a"> Linkden  </a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
