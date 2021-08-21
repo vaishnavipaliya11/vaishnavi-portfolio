@@ -94,6 +94,22 @@
           from the server.</p>
           <p> rejected: this comes when your request is rejected</p>
         </p>
+
+        <h3><b> For Example</b></h3>
+        <p>we want to fetch an api </p> <br>
+        <p>var url ="https://abcd.com" <br>
+
+          fetch(url) <br>
+          .then(function responseHandler (response){ <br>
+            return response.json() <br>
+          }) <br>
+          .then(function jsonHandler(json){ <br>
+            return console.log(json) <br>
+          })<br>
+          Here, it will fetch the data of the API i.e the
+        url which we have given. <br>
+          It will take all the data in the json format and will 
+        give to us.</p>
         </div>
         </div>
     </section>
